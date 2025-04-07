@@ -1,9 +1,9 @@
 {
-  "name": "@hss-cli/vite-react-starter",
+  "name": "@hanss-cli/template-react",
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.0",
+  "version": "1.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",

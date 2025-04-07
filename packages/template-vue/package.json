@@ -1,6 +1,6 @@
 {
-  "name": "@hss-cli/vite-vue-starter",
-  "version": "1.0.0",
+  "name": "@hanss-cli/template-vue",
+  "version": "1.0.2",
   "publishConfig": {
     "access": "public"
   },
