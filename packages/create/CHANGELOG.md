@@ -1,5 +1,18 @@
 # @hanss-cli/create
 
+## 1.0.4
+
+### Patch Changes
+
+- Updated dependencies
+  - @hanss-cli/utils@1.0.2
+
+## 1.0.3
+
+### Patch Changes
+
+- create 命令优化
+
 ## 1.0.2
 
 ### Patch Changes
