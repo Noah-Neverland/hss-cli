@@ -57,6 +57,15 @@ class NpmPackage {
     return fs.existsSync(this.npmFilePath);
   }
 
+  async existsAndIsOld() {
+    if (await this.exists()) {
+      const latestVersion = await this.getLatestVersion();
+      const packageJSON = await this.getPackageJSON();
+      return packageJSON.version !== latestVersion;
+    }
+    return false;
+  }
+
   async getPackageJSON() {
     if (await this.exists()) {
       return fse.readJsonSync(path.resolve(this.npmFilePath, 'package.json'))

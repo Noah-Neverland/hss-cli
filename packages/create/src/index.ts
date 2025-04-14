@@ -47,18 +47,13 @@ async function create() {
     const spinner = ora('下载模版中...').start();
     await pkg.install();
     spinner.stop();
-  } else {
+  } else if (await pkg.existsAndIsOld()) {
     const spinner = ora('更新模版中...').start();
     await pkg.update();
     spinner.stop();
+  } else {
+    ora('模版已是最新...').succeed();
   }
-
-  const spinner = ora('创建项目中...').start();
-
-  const templatePath = path.join(pkg.npmFilePath, 'template');
-  fse.copySync(templatePath, targetPath);
-
-  spinner.stop();
 
   const renderData: Record<string, any> = { projectName };
   const deleteFiles: string[] = [];
@@ -76,6 +71,13 @@ async function create() {
       }
     }
   }
+
+  const spinner = ora('创建项目中...').start();
+
+  const templatePath = path.join(pkg.npmFilePath, 'template');
+  fse.copySync(templatePath, targetPath);
+
+  spinner.stop();
 
   const files = await glob('**', {
     cwd: targetPath,

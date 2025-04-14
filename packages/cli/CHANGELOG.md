@@ -1,5 +1,12 @@
 # @hanss-cli/cli
 
+## 1.0.6
+
+### Patch Changes
+
+- Updated dependencies
+  - @hanss-cli/create@1.0.5
+
 ## 1.0.5
 
 ### Patch Changes
