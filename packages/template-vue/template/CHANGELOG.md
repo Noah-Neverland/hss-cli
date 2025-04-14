@@ -1,10 +1,4 @@
-# @hss-cli/vite-react-starter
-
-## 1.0.3
-
-### Patch Changes
-
-- 模版路径更改
+# @hss-cli/vite-vue-starter
 
 ## 1.0.2
 
