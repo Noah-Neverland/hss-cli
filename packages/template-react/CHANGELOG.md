@@ -1,5 +1,17 @@
 # @hss-cli/vite-react-starter
 
+## 1.0.6
+
+### Patch Changes
+
+- ejs 判断是否安装 eslint 配置
+
+## 1.0.5
+
+### Patch Changes
+
+- ejs 模版动态替换项目名称
+
 ## 1.0.4
 
 ### Patch Changes
