@@ -1,5 +1,11 @@
 # @hss-cli/vite-react-starter
 
+## 1.0.4
+
+### Patch Changes
+
+- 模版内容更新
+
 ## 1.0.3
 
 ### Patch Changes
