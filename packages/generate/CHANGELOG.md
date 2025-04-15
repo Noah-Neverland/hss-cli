@@ -1,5 +1,11 @@
 # @hanss-cli/generate
 
+## 1.1.2
+
+### Patch Changes
+
+- template 增加 generate 文件
+
 ## 1.1.1
 
 ### Patch Changes

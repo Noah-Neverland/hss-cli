@@ -1,5 +1,11 @@
 # @hss-cli/vite-vue-starter
 
+## 1.0.7
+
+### Patch Changes
+
+- template 增加 generate 文件
+
 ## 1.0.6
 
 ### Patch Changes

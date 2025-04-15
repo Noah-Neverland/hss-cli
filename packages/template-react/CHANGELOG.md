@@ -1,5 +1,11 @@
 # @hss-cli/vite-react-starter
 
+## 1.0.8
+
+### Patch Changes
+
+- template 增加 generate 文件
+
 ## 1.0.7
 
 ### Patch Changes
