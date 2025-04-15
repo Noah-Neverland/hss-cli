@@ -1,8 +1,5 @@
 {
   "name": "@hanss-cli/create",
-  "publishConfig": {
-    "access": "public"
-  },
   "version": "1.1.1",
   "description": "",
   "type": "module",
@@ -14,6 +11,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "@inquirer/prompts": "^7.4.1",
     "fs-extra": "^11.3.0"

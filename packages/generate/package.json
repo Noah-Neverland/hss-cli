@@ -1,6 +1,6 @@
 {
   "name": "@hanss-cli/generate",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "",
   "type": "module",
   "main": "dist/index.js",
@@ -13,6 +13,9 @@
   "license": "ISC",
   "publishConfig": {
     "access": "public"
+  },
+  "peerDependencies": {
+    "remark": "^15.0.1"
   },
   "dependencies": {
     "cosmiconfig": "^9.0.0",
