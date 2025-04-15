@@ -1,4 +1,4 @@
-import { input, confirm } from '@inquirer/prompts';
+import { input } from '@inquirer/prompts';
 import OpenAI from 'openai';
 import { remark } from 'remark';
 import path from 'node:path';

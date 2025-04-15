@@ -1,5 +1,11 @@
 # @hanss-cli/create
 
+## 1.1.1
+
+### Patch Changes
+
+- 解决子包依赖公共依赖问题
+
 ## 1.1.0
 
 ### Minor Changes
