@@ -1,5 +1,11 @@
 # @hanss-cli/create
 
+## 1.1.2
+
+### Patch Changes
+
+- 去除测试代码
+
 ## 1.1.1
 
 ### Patch Changes
