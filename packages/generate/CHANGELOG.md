@@ -1,5 +1,17 @@
 # @hanss-cli/generate
 
+## 1.1.3
+
+### Patch Changes
+
+- 测试 peerDependencies 影响
+
+## 1.1.3
+
+### Patch Changes
+
+- 测试 peerDependencies 影响
+
 ## 1.1.2
 
 ### Patch Changes
