@@ -1,9 +1,9 @@
 import { input } from '@inquirer/prompts';
 import OpenAI from 'openai';
-import { remark } from 'remark';
 import path from 'node:path';
 import fse from 'fs-extra';
 import ora from 'ora';
+import { remark } from 'remark';
 import { cosmiconfig } from 'cosmiconfig';
 import { ConfigOptions } from './configType.js';
 

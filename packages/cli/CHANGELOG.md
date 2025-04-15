@@ -1,5 +1,12 @@
 # @hanss-cli/cli
 
+## 1.1.8
+
+### Patch Changes
+
+- Updated dependencies
+  - @hanss-cli/generate@1.1.4
+
 ## 1.1.7
 
 ### Patch Changes
