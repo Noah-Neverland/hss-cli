@@ -1,5 +1,11 @@
 # @hanss-cli/create
 
+## 1.1.4
+
+### Patch Changes
+
+- peerDependencies 测试
+
 ## 1.1.3
 
 ### Patch Changes
