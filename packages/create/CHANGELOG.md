@@ -1,5 +1,11 @@
 # @hanss-cli/create
 
+## 1.1.0
+
+### Minor Changes
+
+- generate command
+
 ## 1.0.6
 
 ### Patch Changes

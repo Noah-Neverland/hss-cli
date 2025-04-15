@@ -1,8 +1,5 @@
 {
-  "name": "@hanss-cli/cli",
-  "publishConfig": {
-    "access": "public"
-  },
+  "name": "@hanss-cli/generate",
   "version": "1.1.0",
   "description": "",
   "type": "module",
@@ -14,12 +11,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bin": {
-    "hanss-cli": "./dist/index.js"
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
-    "@hanss-cli/create": "workspace:^",
-    "@hanss-cli/generate": "workspace:^",
-    "commander": "^13.1.0"
+    "cosmiconfig": "^9.0.0",
+    "openai": "^4.94.0"
   }
 }

@@ -1,5 +1,17 @@
 # @hanss-cli/cli
 
+## 1.1.0
+
+### Minor Changes
+
+- generate command
+
+### Patch Changes
+
+- Updated dependencies
+  - @hanss-cli/create@1.1.0
+  - @hanss-cli/generate@1.1.0
+
 ## 1.0.7
 
 ### Patch Changes

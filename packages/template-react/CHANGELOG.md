@@ -1,5 +1,11 @@
 # @hss-cli/vite-react-starter
 
+## 1.0.7
+
+### Patch Changes
+
+- generate command
+
 ## 1.0.6
 
 ### Patch Changes
